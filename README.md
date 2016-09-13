@@ -1,4 +1,5 @@
-# infor-basics
+H1
+# INFOR BASICS PLUGIN WordPress
 ## Plugin Wordpress para adicionar informações básicas ao thema como: 
 -Endereço
 -Telefone
