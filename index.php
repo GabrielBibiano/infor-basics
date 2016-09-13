@@ -2,7 +2,7 @@
 <?php
 /*
 Plugin Name: Infor Basics
-Plugin URI: http://gabrielbibiano.github.io/infor-basics
+Plugin URI: https://github.com/GabrielBibiano/infor-basics/
 Description: Plugin para informações básicas da empresa (Endereço, Telefone, Email)
 Version: 1.0
 Author: Gabriel Bibiano
@@ -52,7 +52,7 @@ if( !function_exists("infor_basics_page") ){
     function infor_basics_page(){
 ?>
     <h2>Instruções :D</h2>
-    <h3>Para imprimir em seu website os dados chame as seguintes funções:</h3>
+    <h3>Para imprimir os dados em seu website chame as seguintes funções:</h3>
     
     <table>
       <tr>
