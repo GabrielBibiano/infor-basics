@@ -1,5 +1,5 @@
 # INFOR BASICS PLUGIN WordPress
-## Plugin Wordpress para adicionar informações básicas ao thema como: 
+## Plugin Wordpress para adicionar informações básicas ao tema como: 
 * Endereço
 * Telefone
 * Email
