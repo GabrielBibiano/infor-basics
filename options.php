@@ -8,7 +8,7 @@ if( !function_exists("infor_basics_info_email") ){
   }
 }
 
-add_filter('the_content', 'infor_basics_info_email');
+add_filter('content_infor_basics', 'infor_basics_info_email');
 
 //ADICIONA TELEFONE OPTION
 if( !function_exists("infor_basics_info_telefone") ){
@@ -18,7 +18,7 @@ if( !function_exists("infor_basics_info_telefone") ){
   }
 }
 
-add_filter('the_content', 'infor_basics_info_telefone');
+add_filter('content_infor_basics', 'infor_basics_info_telefone');
 
 //ADICIONA ENDEREÇO OPTION
 if( !function_exists("infor_basics_info_endereco") ){
@@ -28,7 +28,7 @@ if( !function_exists("infor_basics_info_endereco") ){
   }
 }
 
-add_filter('the_content', 'infor_basics_info_endereco');
+add_filter('content_infor_basics', 'infor_basics_info_endereco');
 
 
 

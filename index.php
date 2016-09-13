@@ -145,7 +145,7 @@ function telefone_empresa(){
     echo get_option('telefone_empresa');
 }
 
-add_filter('the_content', 'endereco_empresa');
-add_filter('the_content', 'email_empresa');
-add_filter('the_content', 'telefone_empresa');
+add_filter('content_infor_basics', 'endereco_empresa');
+add_filter('content_infor_basics', 'email_empresa');
+add_filter('content_infor_basics', 'telefone_empresa');
 
