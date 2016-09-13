@@ -5,6 +5,6 @@
 * Email
 
 ## Funções:
-* <?php endereco_empresa(); ?>
-* <?php telefone_empresa(); ?>
-* <?php email_empresa(); ?>
+* Endereço: <?php endereco_empresa(); ?>
+* Telefone: <?php telefone_empresa(); ?>
+* Email: <?php email_empresa(); ?>
