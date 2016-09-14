@@ -126,6 +126,8 @@ if( !function_exists("infor_basics_page") ){
             <td><?php echo get_option('email_empresa'); ?></td>
         </tr>
     </table>
+
+    <p style="float: right; margin-right: 20px; color: #555d66;">Plugin <?php admin_footer();?> - &copy Todos os direitos reservados</p>
     <?php
     }
 }
@@ -149,10 +151,10 @@ add_filter('content_infor_basics', 'endereco_empresa');
 add_filter('content_infor_basics', 'email_empresa');
 add_filter('content_infor_basics', 'telefone_empresa');
 
-public function admin_footer() {
+function admin_footer() {
       echo 'Desenvolvido por ';
       echo "<a href='http://gabrielbibiano.github.io' target='_blank'>Gabriel Bibiano";
       echo "</a>";
     }
 
-add_filter( 'admin_footer_text', array( __CLASS__, 'admin_footer' ) );
+add_filter( 'admin_footer_text', 'admin_footer' ) ;
