@@ -149,3 +149,10 @@ add_filter('content_infor_basics', 'endereco_empresa');
 add_filter('content_infor_basics', 'email_empresa');
 add_filter('content_infor_basics', 'telefone_empresa');
 
+public function admin_footer() {
+      echo 'Desenvolvido por ';
+      echo "<a href='http://gabrielbibiano.github.io' target='_blank'>Gabriel Bibiano";
+      echo "</a>";
+    }
+
+add_filter( 'admin_footer_text', array( __CLASS__, 'admin_footer' ) );
